@@ -1,0 +1,45 @@
+.sidenav {
+    height: 100vh;
+    width: 80px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    
+
+}
+
+.sidenavlist {
+    width: 100%;
+    padding: 0;
+    
+}
+
+.sidenavlist .row{
+    width: 100%;
+    height: 50px;
+    list-style-type: none ;
+    margin: 0%;
+   justify-content: center;
+   align-items: center;
+   display:  flex;
+   padding-top: 12px;
+
+}
+
+.sidenavlist .avataricon{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 16px;
+    
+}

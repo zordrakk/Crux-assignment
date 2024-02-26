@@ -1,0 +1,283 @@
+* {
+  font: Geist;
+}
+
+.AddWidgetBg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: Geist;
+}
+.modalContainer {
+  width: 800px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+/* Header */
+.AWHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid;
+  border-color: #bebebe;
+  padding-top: 10px;
+}
+.AWHeaderLeft {
+  display: flex;
+  width: 60%;
+  padding-bottom: 10px;
+}
+.AWHeaderLogo {
+  padding: 0 20px 0 0;
+}
+.AWHeaderH {
+  color: #5e5adb;
+  font-weight: 600;
+  font-size: 22px;
+}
+.AWHeaderP {
+  color: #888891;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.AWHeaderRight {
+  display: flex;
+  padding-right: 10px;
+  justify-content: right;
+}
+.AWidgetTitle input {
+  font: Geist;
+  font-size: 14px;
+  font-weight: 500;
+  width: 300px;
+  height: 25px;
+}
+
+/* Widget Main */
+.AWMain {
+  display: flex;
+}
+
+.AWMain .top {
+  display: flex;
+}
+.WidgetSize {
+  display: flex;
+  padding: 10px;
+}
+
+.WZoomTool {
+  display: flex;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+.WidgetContent {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: 190px;
+
+  padding: 50px;
+}
+.WidgetTitle {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-bottom: 5px;
+
+  letter-spacing: 0.1em;
+  color: #6b6b6b;
+}
+
+.WidgetMain {
+  width: 190px;
+  height: 190px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 5px 5px 5px;
+  justify-content: center;
+  display: grid;
+}
+/* Widget Main Nav */
+.WMNav {
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  height: 27px;
+}
+.WMNavL {
+  display: flex;
+}
+.WMNavL button {
+  border: None;
+  background: none;
+  padding: 0 8px;
+  margin: 0;
+  color: #bbbbbb;
+}
+.WMNavR {
+  display: grid;
+  justify-content: right;
+  padding-left: 25px;
+  text-align: center;
+  align-items: center;
+}
+.WMNavR button {
+  background: none;
+  border: none;
+}
+.WidgetPreview {
+  width: 500px;
+  height: 400px;
+  background-color: #e0dff8;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+/* Colour picker */
+.WColorPicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 33px;
+}
+
+.WColorPicker button {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+.WCPBtn1,
+.WCPBtn2,
+.WCPBtn3 {
+  padding: 5px;
+}
+.WCPBtn1 button {
+  background-color: #282828;
+}
+.WCPBtn2 button {
+  background-color: #ffffff;
+}
+.WCPBtn3 button {
+  background-color: #5e5adb;
+}
+
+.WSHeading {
+  padding: 10px 5px;
+  color: #2b2b2b59;
+  font: Geist;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 2%;
+}
+.WidgetComponents {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+/* Components Btn */
+.WSettingBox {
+  border: 1px solid;
+  border-color: #e4e4e7;
+  border-radius: 8px;
+  padding: 10px 140px 10px 5px;
+  margin-bottom: 10px;
+}
+
+.WSBTitle {
+  color: #585858;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.WSBDesc {
+  color: #888891;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 400;
+}
+.WCGraphType {
+  padding: 5px;
+  background-color: #f4f4f5;
+  border-radius: 4px;
+  height: 22px;
+}
+.WCGraphType button {
+  border: none;
+  width: 36px;
+  height: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+/* Widget Action Buttons */
+.WidgetAction {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.WidgetAction .WASaveBtn {
+  background-color: #5e5adb;
+  width: 100px;
+  height: 42px;
+  border: 1px solid;
+  border-color: #5e5adb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.WidgetAction .WACancelBtn {
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #e0dff8;
+  color: #9f9f9f;
+  border-radius: 8px;
+}
+
+.WidgetAction .WAClockBtn {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #e4e4e7;
+  color: #9f9f9f;
+  border-radius: 8px;
+}
+/* .WidgetAction button {
+  width: 82px;
+  height: 35px;
+} */
+
+/* active tabs */
+.active-tabs {
+  border: 2px solid;
+  border-color: #5e5adb;
+}
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  transform: translate(-50%);
+}

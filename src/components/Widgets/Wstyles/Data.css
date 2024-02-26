@@ -1,0 +1,25 @@
+.table_data {
+  font-size: 13px;
+  text-align: left;
+}
+.table_data table {
+  border-collapse: separate;
+  border-spacing: 3.5px;
+}
+.table_data table th {
+  margin-right: 20px;
+}
+.table_data thead .TDTHH {
+  color: #5e5adb;
+  font-weight: 700;
+}
+.table_data thead .TDTHSH {
+  color: #aba8ff;
+  font-weight: 12px;
+}
+
+.table_data tbody {
+  font-weight: 500;
+  font-size: 12px;
+  color: #474747a6;
+}

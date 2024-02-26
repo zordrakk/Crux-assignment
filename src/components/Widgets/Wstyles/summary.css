@@ -1,0 +1,14 @@
+:root {
+  --lh: 1.4rem;
+}
+
+.summary p {
+  width: 170px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 13px;
+  color: #000000a6;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "P_name" : "Reusable",
+        "value1" : "10%",
+        "value2" : "4%"
+    },
+    {
+        "id": 2,
+        "P_name" : "Natural",
+        "value1" : "2%",
+        "value2" : "11%"
+    },
+    {
+        "id": 3,
+        "P_name" : "Reusable",
+        "value1" : "7%",
+        "value2" : "5%"
+    },
+    {
+        "id": 4,
+        "P_name" : "Reusable",
+        "value1" : "3%",
+        "value2" : "4%"
+    },
+
+    {
+        "id": 5,
+        "P_name" : "Total",
+        "value1" : "8%",
+        "value2" : "12%"
+    }
+
+]

@@ -2,21 +2,70 @@ import BarChartT from "../components/Widgets/barchart";
 import LineChartT from "../components/Widgets/linechart";
 import PieChartT from "../components/Widgets/piechart";
 import SummaryT from "../components/Widgets/Summary";
+import "./customer.css";
 
 function customer() {
   return (
-    <div>
-      <div>
-        <BarChartT />
+    <div className="Cu_W">
+      <div className="Customer_W">
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
+        <div className="widgets">
+          <PieChartT />
+        </div>
+        <div className="widgets">
+          <SummaryT />
+        </div>
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
       </div>
-      <div>
-        <LineChartT />
+      <div className="Customer_W">
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
+        <div className="widgets">
+          <PieChartT />
+        </div>
+        <div className="widgets">
+          <SummaryT />
+        </div>
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
       </div>
-      <div>
-        <PieChartT />
-      </div>
-      <div>
-        <SummaryT />
+      <div className="Customer_W">
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
+        <div className="widgets">
+          <PieChartT />
+        </div>
+        <div className="widgets">
+          <SummaryT />
+        </div>
+        <div className="widgets">
+          <BarChartT />
+        </div>
+        <div className="widgets">
+          <LineChartT />
+        </div>
       </div>
     </div>
   );
